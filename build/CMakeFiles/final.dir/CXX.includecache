@@ -1,0 +1,72 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/sean/Projects/Final Project/3DVector.h
+math.h
+-
+algorithm
+-
+iostream
+-
+stdlib.h
+-
+
+/home/sean/Projects/Final Project/models.h
+GL/glut.h
+-
+GL/glu.h
+-
+GL/gl.h
+-
+map
+-
+cmath
+-
+cstdlib
+-
+ctime
+-
+iostream
+-
+string
+-
+3DVector.h
+/home/sean/Projects/Final Project/3DVector.h
+list
+-
+deque
+-
+
+/home/sean/Projects/Final Project/plinko.cpp
+GL/glut.h
+-
+GL/glu.h
+-
+GL/gl.h
+-
+math.h
+-
+stdlib.h
+-
+utils.h
+/home/sean/Projects/Final Project/utils.h
+models.h
+/home/sean/Projects/Final Project/models.h
+list
+-
+iostream
+-
+boost/variant.hpp
+-
+boost/any.hpp
+-
+
+/home/sean/Projects/Final Project/utils.h
+math.h
+-
+
